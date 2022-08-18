@@ -2,10 +2,10 @@
   "name": "pgv",
   "version": "1.0.0",
   "description": "",
-  "main": "./build/app.js",
-  "bin": "./build/app.js",
+  "main": "./build/pgv.js",
+  "bin": "./build/pgv.js",
   "scripts": {
-    "start": "tsc && node build/app.js",
+    "start": "tsc && node build/pgv.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
