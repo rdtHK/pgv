@@ -6,11 +6,11 @@ PostgreSQL migrations.
 
 ## Installation
 
-    $ npm install -g pgv
+    $ npm install --save-dev git+ssh://git@github.com:rdtHK/pgv.git
 
 pgv is now available via:
 
-    $ pgv
+    $ npx pgv
 
 ## Configuration
 
