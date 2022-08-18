@@ -95,7 +95,7 @@ export async function runChanges(dir: string, table: string, label: string) {
         });
       }
     }
-  } catch (error) {
+  } catch (error: any) {
     // If the changes directory does not exist, just returns.
     if (error.code === 'ENOENT') {
       return;
